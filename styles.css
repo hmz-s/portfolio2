@@ -1,0 +1,88 @@
+/* MAIN BODY */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 1em 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: var(--header-text);
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.section {
+    background-color: var(--section-bg);
+    margin-bottom: 2em;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* PINK MODE */
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #000;
+    --header-bg: #333;
+    --header-text: #fff;
+    --section-bg: #fff;
+    --footer-bg: #333;
+    --footer-text: #fff;
+}
+
+body.pink-mode {
+    --bg-color: #ffe4e1;
+    --text-color: #000;
+    --header-bg: #ff69b4;
+    --header-text: #fff;
+    --section-bg: #ffb6c1;
+    --footer-bg: #ff69b4;
+    --footer-text: #fff;
+}
+
+/* DARK MODE */
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #fff;
+    --header-bg: #1e1e1e;
+    --header-text: #fff;
+    --section-bg: #1e1e1e;
+    --footer-bg: #1e1e1e;
+    --footer-text: #fff;
+}
